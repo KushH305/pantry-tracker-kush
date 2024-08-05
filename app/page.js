@@ -222,7 +222,7 @@ export default function Home() {
         </Table>
       </Paper>
   
-      {/* Add Item Modal */}
+      
       <Modal open={open} onClose={handleClose}>
         <Paper sx={{
           position: "absolute",
@@ -253,7 +253,7 @@ export default function Home() {
         </Paper>
       </Modal>
   
-      {/* Edit Item Modal */}
+      
       <Modal open={editOpen} onClose={handleEditClose}>
         <Paper sx={{
           position: "absolute",
